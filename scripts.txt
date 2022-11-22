@@ -1,0 +1,2 @@
+Split-File -Path "D:\Downloads\Windows 11 22H2\Windows.iso" -PartSizeBytes 16MB
+Join-File -Path "D:\Downloads\Windows 11 22H2\Windows.iso"

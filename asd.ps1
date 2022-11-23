@@ -1,7 +1,7 @@
 $data = (Get-ChildItem -Path "D:\Downloads\Новая папка" *.part).FullName
 foreach ($item in $data)
 {
-Copy-Item -Path ($data[0])
+Copy-Item -Path ($item)
 git add .
 git commit -m "init"
 git push
